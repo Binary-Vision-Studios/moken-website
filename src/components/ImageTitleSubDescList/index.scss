@@ -20,7 +20,7 @@
     .image-title-sub-desc-list-title {
       margin-bottom: 70px;
       span {
-        letter-spacing: .25vw;
+        letter-spacing: 0.25vw;
         @media only screen and (max-width: 600px) {
           letter-spacing: 4px;
         }
@@ -40,6 +40,7 @@
       }
     }
     .image-title-sub-desc-list-description {
+      max-width: 550px;
       margin-bottom: 73px;
     }
     .image-title-sub-desc-list-item {

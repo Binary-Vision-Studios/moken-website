@@ -12,11 +12,13 @@ const ImageTitleSubDescList = ({
   list = [],
   imgURL = "",
   listClassName = "",
-                                 containerClassName = ''
+  containerClassName = "",
 }) => {
   const { isMobile } = useWindowDimensions();
   return (
-    <div className={`image-title-sub-desc-list-container ${containerClassName}`}>
+    <div
+      className={`image-title-sub-desc-list-container ${containerClassName}`}
+    >
       <img
         data-aos="fade-in"
         className={"image-title-sub-desc-list-image"}
@@ -40,16 +42,18 @@ const ImageTitleSubDescList = ({
         >
           {subtitle}
         </Text>
-        {description ? <Text
+        {description ? (
+          <Text
             size={20}
             mobSize={16}
-            textStyles={{lineHeight: isMobile ? "26px" : "30px"}}
+            textStyles={{ lineHeight: isMobile ? "26px" : "30px" }}
             animationType={"fade-in"}
             className={"image-title-sub-desc-list-description"}
             type={"kLight"}
-        >
-          {description}
-        </Text> : null}
+          >
+            {description}
+          </Text>
+        ) : null}
         {list.map((listData, index) => {
           return (
             <div

@@ -19,11 +19,11 @@ export default {
     },
     {
       // image: Idea,
-      title: 'Innovator Feature',
+      title: '#IAmAFounder',
       description:
-      `A community driven approach to showcasing & highlighting hardworking founders & innovators in the global startup ecosystem who are creating the future.`,
+      `Implement idea of a banner on the website during the campaign for nominations etc.`,
       subTitle: "SHARE YOUR STORY",
-      route: "/innovator-feature",
+      route: "/iamafounder",
     },
   ],
 };
