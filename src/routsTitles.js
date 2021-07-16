@@ -16,7 +16,7 @@ export default {
     '/for-startups': 'Moken | For startups',
     '/for-students': 'Moken | For students',
     '/for-investors': 'Moken | For investors',
-    '/innovator-feature': 'Moken | Innovator feature',
+    '/iamafounder': 'Moken | #IAmAFounder',
     '/mo-ken': 'Moken | Mo + Ken',
     '/connect-with-us': 'Moken | Connect with us',
     '/about-programs': 'Moken | About programs',

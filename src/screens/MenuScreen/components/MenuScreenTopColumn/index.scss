@@ -1,6 +1,9 @@
 .menu-screen-top-column-container {
   width: 321px;
   margin-right: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   .menu-screen-image {
     height: 2vw;
     margin-bottom: 30px;

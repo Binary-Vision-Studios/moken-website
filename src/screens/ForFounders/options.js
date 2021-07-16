@@ -4,9 +4,9 @@ export default {
       title: `Innovator
 Feature`,
       subtitle:
-        "A community driven approach to showcasing & highlighting hardworking founders & innovators in the global startup ecosystem who are creating the future.",
+        "Implement idea of a banner on the website during the campaign for nominations etc.",
       btnTitle: 'SHARE YOUR STORY',
-      route: '/innovator-feature'
+      route: '/iamafounder'
     },
     {
       title: `Community

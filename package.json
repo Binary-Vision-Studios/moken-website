@@ -1,4 +1,4 @@
- {
+{
   "homepage": "https://mokenstartups.com",
   "name": "moken",
   "version": "0.1.0",
@@ -11,7 +11,6 @@
     "d3-ease": "^2.0.0",
     "emailjs-com": "^2.6.4",
     "moment": "^2.29.1",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-circular-progressbar": "^2.0.3",
     "react-countup": "^4.3.3",
@@ -27,10 +26,12 @@
     "react-player": "^2.7.2",
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "3.4.3",
     "react-typed": "^1.2.0",
     "react-typical": "^0.1.3",
     "reactjs-popup": "^2.0.4",
+    "sass": "^1.35.2",
     "styled-components": "^5.2.1",
     "swiper": "^6.4.11"
   },

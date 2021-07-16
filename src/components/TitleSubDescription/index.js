@@ -11,11 +11,16 @@ const TitleSubDescription = ({
   btnTitle = "",
   AdditionalComponent,
   containerStyles = {},
-  subtitleClassName = '',
-  descriptionClassName = ''
+  subtitleClassName = "",
+  descriptionClassName = "",
+  id,
 }) => {
   return (
-    <div className={"title-sub-description-container"} style={containerStyles}>
+    <div
+      className={"title-sub-description-container"}
+      style={containerStyles}
+      id={id}
+    >
       <Title title={title} className={"title-sub-description-title"} />
       <Text
         className={`${subtitleClassName} title-sub-description-subtitle`}
@@ -45,7 +50,7 @@ const TitleSubDescription = ({
             className={"title-sub-description-btn"}
             title={btnTitle}
             containerStyles={{ padding: 0 }}
-            type={'lowerMenu'}
+            type={"lowerMenu"}
           />
         </div>
       ) : null}

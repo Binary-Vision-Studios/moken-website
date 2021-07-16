@@ -146,7 +146,7 @@ const routsWithHeaderFooter = [
     component: ForInvestors,
   },
   {
-    path: "/innovator-feature",
+    path: "/iamafounder",
     component: InnovatorFeature,
   },
   {
